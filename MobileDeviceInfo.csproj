@@ -85,7 +85,7 @@
     <Compile Include="ViewModels\DetailedDeviceInfoViewModel.cs" />
     <Compile Include="ViewModels\MainDeviceInfoViewModel.cs" />
     <Compile Include="ViewModels\SettingsAppearanceViewModel.cs" />
-    <Compile Include="ViewModels\ServiceLocator.cs" />
+    <Compile Include="Services\ServiceLocator.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

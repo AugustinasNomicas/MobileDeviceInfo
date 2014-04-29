@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.Reflection;
+using MobileDeviceInfo.ViewModels;
 
-namespace MobileDeviceInfo.ViewModels
+namespace MobileDeviceInfo.Services
 {
     public class ServiceLocator
     {

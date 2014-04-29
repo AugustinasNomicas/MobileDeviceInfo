@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Composition;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 
 namespace MobileDeviceInfo.Services
 {
     /// <summary>
     /// Extracts common variables from BuildParams and give them meaningful names. 
-    /// Tested only on HTC One.
+    /// Tested on HTC One.
     /// </summary>
     public class MainInfoExtractor
     {
