@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="FirstFloor.ModernUI.App.Pages.EnableUsbDebug"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel >
+                <TextBlock Text="How to enabled USB debugging" Style="{StaticResource Heading1}" Margin="0,0,0,4"/>
+                <mui:BBCodeBlock 
+BBCode="
+For Android 4.x&#13;&#10;
+1. Launch the Settings on your Android devices.Tap Developer options&#13;&#10;
+2. Toggle the USB Debugging option.&#13;&#10;
+&#13;&#10;
+For Android 2.x&#13;&#10;
+1. Launch the Settings on your android devices.Tap Application&#13;&#10;
+2. Tap Development and Check the box for USB Debugging&#13;&#10;
+&#13;&#10;
+[b]Note[/b]: On Android 4.2 and newer, Developer options is hidden by default.&#13;&#10;
+To make it available, go to Settings > About phone and tap Build number [b]seven[/b] times.&#13;&#10;
+Return to the previous screen to find Developer options.&#13;&#10;&#13;&#10;
+More info can be found [url=http://adbdriver.com/documentations/how-to-enable-usb-debugging-mode-on-android-devices.html]here[/url]                    
+                    " Margin="0,0,0,16" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
